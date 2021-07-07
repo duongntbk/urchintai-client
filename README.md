@@ -1,6 +1,6 @@
 # urchintai-client Package
 
-This is a simply client for UR Chintai API (UR都市機構) written in Python.
+This is a simple client for UR Chintai API (UR都市機構) written in Python.
 
 Please see my blog post at the link below for more information regarding the API.
 
@@ -99,7 +99,7 @@ loop = asyncio.get_event_loop()
 name = loop.run_until_complete(client.get_property_name(url))
 print(f'Property name: {name}')
 
-loop.run_until_complete(SessionManager.CloseSession()) # Don't forgot to close session
+loop.run_until_complete(SessionManager.CloseSession()) # Don't forgot to close the session
 ```
 
 This should print the following message to console.

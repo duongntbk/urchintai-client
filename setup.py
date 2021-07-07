@@ -15,15 +15,15 @@ with open('README.md', 'r', encoding='utf-8') as fh:
     long_description = fh.read()
 
 setup(
-   name='urchintai_client',
+   name='urchintai-client',
    version='1.0.0',
    description='Client to call UR Chintai API (UR都市機構)',
    author='Nguyen Thai Duong',
    author_email='duongnt.bk@gmail.com',
    long_description=long_description,
    long_description_content_type='text/markdown',
-   url='https://github.com/duongntbk/urchintai_client',
-   packages=['urchintai_client'],  #same as name
+   url='https://github.com/duongntbk/urchintai-client',
+   packages=['urchintai_client'],
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
